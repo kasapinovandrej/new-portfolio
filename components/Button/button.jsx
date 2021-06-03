@@ -2,6 +2,7 @@ import React from "react";
 import classes from "./button.module.scss";
 import { motion } from "framer-motion";
 import { IoEnterOutline } from "react-icons/io5";
+import { IoMdClose } from "react-icons/io";
 
 const Button = (props) => {
   return (
@@ -19,6 +20,7 @@ const Button = (props) => {
       <span>
         {props.name}
         {props.enterIcon ? <IoEnterOutline /> : null}
+        {props.close ? <IoMdClose /> : null}
       </span>
     </motion.button>
   );

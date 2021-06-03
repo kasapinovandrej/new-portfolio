@@ -25,3 +25,16 @@
     align-items: center;
   }
 }
+.close {
+  position: absolute;
+  padding: 0.5rem;
+  top: 1rem;
+  right: 0;
+  z-index: 12;
+  @media only screen and (max-width: $breakpoints-md) {
+    top: 8rem;
+  }
+  svg {
+    display: flex;
+  }
+}

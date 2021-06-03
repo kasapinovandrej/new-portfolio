@@ -5,6 +5,8 @@ import Card from "../Card/card";
 import Image from "next/image";
 import Button from "../Button/button";
 import Modal from "../Modal/modal";
+import "react-inner-image-zoom/lib/InnerImageZoom/styles.css";
+import InnerImageZoom from "react-inner-image-zoom";
 
 const testimonies = ({ testimonies }) => {
   const [modal, setModal] = useState(false);
@@ -23,7 +25,7 @@ const testimonies = ({ testimonies }) => {
           <Card key={el.id}>
             <div className={classes.content}>
               <Image src={el.image} width={100} height={150} />
-              <p>{el.text}</p>
+              <blockquote>{el.text}</blockquote>
               <h4>{el.name}</h4>
               <h5>{el.position}</h5>
               <Button
@@ -39,8 +41,9 @@ const testimonies = ({ testimonies }) => {
       {modal && (
         <Modal function={toggleModalHandler} type="glass">
           <div className={classes.modalcontent}>
-            <Image src={testimonie} width={600} height={800} />
+            <InnerImageZoom src={testimonie} zoomScale={1.5} />
           </div>
+          <Button close type="close" function={toggleModalHandler} />
         </Modal>
       )}
     </section>
