@@ -1,0 +1,108 @@
+{
+  "learningFrom": [
+    {
+      "id": "l0",
+      "title": "Build Responsive Real World Websites with HTML5 and CSS3",
+      "tutor": "Jonas Schmedtmann",
+      "description": "The easiest way to learn modern web design, HTML5 and CSS3 step-by-step from scratch. Design AND code a huge project.",
+      "link": "https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/",
+      "image": "/images/learning/html.jpg"
+    },
+    {
+      "id": "l1",
+      "title": "Advanced CSS and Sass: Flexbox, Grid, Animations and More!",
+      "tutor": "Jonas Schmedtmann",
+      "description": "The most advanced and modern CSS course on the internet: master flexbox, CSS Grid, responsive design, and so much more.",
+      "link": "https://www.udemy.com/course/advanced-css-and-sass/",
+      "image": "/images/learning/css.jpg"
+    },
+    {
+      "id": "l2",
+      "title": "The Complete JavaScript Course 2021: From Zero to Expert!",
+      "tutor": "Jonas Schmedtmann",
+      "description": "The modern JavaScript course for everyone! Master JavaScript with projects, challenges and theory. Many courses in one!",
+      "link": "https://www.udemy.com/course/the-complete-javascript-course/",
+      "image": "/images/learning/js.jpg"
+    },
+    {
+      "id": "l3",
+      "title": "JavaScript: Understanding the Weird Parts.",
+      "tutor": "Anthony Alicea",
+      "description": "An advanced JavaScript course for everyone! Scope, closures, prototypes, 'this', build your own framework, and more.",
+      "link": "https://www.udemy.com/course/understand-javascript/",
+      "image": "/images/learning/js2.jpg"
+    },
+    {
+      "id": "l4",
+      "title": "React - The Complete Guide (incl Hooks, React Router, Redux)",
+      "tutor": "Maximilian Schwarzmüller",
+      "description": "Dive in and learn React.js from scratch! Learn Reactjs, Hooks, Redux, React Routing, Animations, Next.js and way more!",
+      "link": "https://www.udemy.com/course/react-the-complete-guide-incl-redux/",
+      "image": "/images/learning/reactjs.jpg"
+    },
+    {
+      "id": "l5",
+      "title": "Next.js & React - The Complete Guide (incl. Two Paths!)",
+      "tutor": "Maximilian Schwarzmüller",
+      "description": "Learn NextJS from the ground up and build production-ready, fullstack ReactJS apps with the NextJS framework!",
+      "link": "https://www.udemy.com/course/nextjs-react-the-complete-guide/",
+      "image": "/images/learning/nextjs.jpg"
+    },
+    {
+      "id": "l6",
+      "title": "Complete React Developer in 2021 (w/ Redux, Hooks, GraphQL)",
+      "tutor": "Andrei Neagoie",
+      "description": "Become a Senior React Developer! Build a massive E-commerce app with Redux, Hooks, GraphQL, ContextAPI, Stripe, Firebase",
+      "link": "https://www.udemy.com/course/complete-react-developer-zero-to-mastery/",
+      "image": "/images/learning/reactjs2.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "j0",
+      "company": "Digital Solution",
+      "position": "Web developer",
+      "description": "Creating web applications for clients to present their activities",
+      "image": "/images/prevcomp/digital.png"
+    },
+    {
+      "id": "j1",
+      "company": "Nelt Co",
+      "position": "Pre-selling representative",
+      "description": "Liaising with clients and customer care, market research and observing of competition activity, boosting sales, collection...",
+      "image": "/images/prevcomp/nelt.png"
+    },
+    {
+      "id": "j2",
+      "company": "Pepsi Serbia, A&P doo",
+      "position": "Sales supervisor",
+      "description": "Organize and coordinate sales representatives schedules. Recruit, hire and train new sales representatives. Receive and report on all sales leads. Work with sales team when closing sales. Track weekly, monthly, and quarterly performance and sales metrics. Assist sales representatives and team to meet and exceed goals.",
+      "image": "/images/prevcomp/pepsi.png"
+    },
+    {
+      "id": "j3",
+      "company": "Coca-Cola HBC",
+      "position": "Market developer jolly",
+      "description": "Liaising with clients on site. Sale of beverages and boosting sales. Customer care. Marketing research and observing of competition activity.",
+      "image": "/images/prevcomp/coca.png"
+    }
+  ],
+  "testimonies": [
+    {
+      "id": "t0",
+      "name": "Raško Alempijević",
+      "position": "Sales supervisor, Nelt Co",
+      "text": "As a sales representative he showed significant results, and in a short time positioned himself among the best. Easily adapted to the work environment and very quickly showed that he is able to cope with complex tasks...",
+      "image": "/images/prevcomp/nelt.png",
+      "letter": "/images/testimonies/nelt.JPG"
+    },
+    {
+      "id": "t1",
+      "name": "Bratislav Janković",
+      "position": "Sales supervisor, Coca-Cola HBC",
+      "text": "He had an excellent business relationship with clients. Showed high motivation and desire to work and achieving company goals, and managed to do tasks better than some colleagues who have more work experience...",
+      "image": "/images/prevcomp/coca.png",
+      "letter": "/images/testimonies/coca.JPG"
+    }
+  ]
+}

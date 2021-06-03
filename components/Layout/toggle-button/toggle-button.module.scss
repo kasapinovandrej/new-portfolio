@@ -1,0 +1,23 @@
+@import "../../../styles/variables";
+.button {
+  position: fixed;
+  right: 5%;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid $color3;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  background: $color1;
+  cursor: pointer;
+  z-index: 2;
+  outline: none;
+  display: none;
+  @media only screen and (max-width: $breakpoints-lg) {
+    display: flex;
+  }
+}
+.icon {
+  color: $color7;
+  font-size: 2.5rem;
+}

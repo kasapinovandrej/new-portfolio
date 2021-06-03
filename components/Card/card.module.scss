@@ -1,0 +1,14 @@
+@import "../../styles/variables";
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: $color6;
+  border-radius: 20px;
+  margin: 1rem 0;
+  min-width: 30%;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  @media only screen and (max-width: $breakpoints-sm) {
+  }
+}

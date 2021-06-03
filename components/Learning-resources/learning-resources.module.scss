@@ -1,0 +1,14 @@
+@import "../../styles/variables";
+.learning {
+  margin: 0 auto;
+  padding: 5rem 0;
+  background: $section;
+}
+.swiperbox {
+  position: relative;
+  margin: 0 auto;
+  width: 70%;
+  @media only screen and (max-width: 370px) {
+    width: 90%;
+  }
+}

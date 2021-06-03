@@ -1,0 +1,33 @@
+@import "../../styles/variables";
+.about {
+  background: $section;
+  padding: 5rem 0;
+}
+.textbox {
+  width: 80%;
+  margin: 0 auto;
+  @media only screen and (max-width: $breakpoints-sm) {
+    width: 90%;
+  }
+  p {
+    text-align: justify;
+    text-indent: 10rem;
+    margin-bottom: 3rem;
+  }
+  h3 {
+    text-align: center;
+    position: relative;
+    margin: 2rem 0;
+    line-height: 3.8rem;
+    &::before {
+      content: "”";
+      color: $color9;
+      font-size: 5rem;
+    }
+    &::after {
+      content: ",,";
+      color: $color9;
+      font-size: 5rem;
+    }
+  }
+}

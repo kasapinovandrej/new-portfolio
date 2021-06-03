@@ -1,0 +1,27 @@
+@import "../../styles/variables";
+.slide {
+  min-height: 38rem;
+  cursor: pointer;
+  padding: 2rem;
+  @media only screen and (max-width: $breakpoints-sm) {
+    height: max-content;
+  }
+
+  p {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    @media only screen and (max-width: $breakpoints-sm) {
+      font-size: 2.5rem;
+    }
+  }
+  .image {
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+  h5 {
+    margin-bottom: 0.5rem;
+    @media only screen and (max-width: $breakpoints-sm) {
+      margin-bottom: 1.5rem;
+    }
+  }
+}
