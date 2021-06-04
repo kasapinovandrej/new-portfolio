@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import classes from "./testimonies.module.scss";
 import Title from "../Title/title";
 import Card from "../Card/card";
@@ -7,9 +7,10 @@ import Button from "../Button/button";
 import Modal from "../Modal/modal";
 import "react-inner-image-zoom/lib/InnerImageZoom/styles.css";
 import InnerImageZoom from "react-inner-image-zoom";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { animateSection } from "../../helper/animate";
+import { disableBodyScroll, enableBodyScroll } from "body-scroll-lock";
 
 const testimonies = ({ testimonies }) => {
   const [modal, setModal] = useState(false);
@@ -18,11 +19,14 @@ const testimonies = ({ testimonies }) => {
     threshold: 0.2,
   });
   const animation = animateSection(inView);
+  const document = useRef();
 
   const toggleModalHandler = (e) => {
     setTestimonie(e.letter);
     setModal(!modal);
   };
+
+  modal ? disableBodyScroll(document) : enableBodyScroll(document);
 
   return (
     <motion.section
@@ -49,14 +53,23 @@ const testimonies = ({ testimonies }) => {
           </Card>
         ))}
       </div>
-      {modal && (
-        <Modal function={toggleModalHandler} type="glass">
-          <div className={classes.modalcontent}>
-            <InnerImageZoom src={testimonie} zoomScale={1.5} />
-          </div>
-          <Button close type="close" function={toggleModalHandler} />
-        </Modal>
-      )}
+      <AnimatePresence>
+        {modal && (
+          <Modal function={toggleModalHandler} type="glass">
+            <motion.div
+              className={classes.modalcontent}
+              ref={document}
+              initial={{ opacity: 0, scale: 0 }}
+              animate={{ opacity: 1, scale: 1, overflow: scroll }}
+              exit={{ opacity: 0, scale: 0, x: "-100vw" }}
+              transition={{ duration: 0.5 }}
+            >
+              <InnerImageZoom src={testimonie} zoomScale={1.5} />
+            </motion.div>
+            <Button close type="close" function={toggleModalHandler} />
+          </Modal>
+        )}
+      </AnimatePresence>
     </motion.section>
   );
 };
