@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import Title from "../Title/title";
 import classes from "./previous-experience.module.scss";
 import Image from "next/image";
+import { useInView } from "react-intersection-observer";
+import { motion } from "framer-motion";
+import { animateSection } from "../../helper/animate";
 
 const PreviousExperience = ({ expData }) => {
   const [currentButton, setCurrentButton] = useState("j0");
@@ -9,9 +12,10 @@ const PreviousExperience = ({ expData }) => {
   const currentButtonHandler = (id) => {
     setCurrentButton(id);
   };
-
+  const { ref, inView } = useInView();
+  const animate = animateSection(inView);
   return (
-    <section className={classes.prevexp}>
+    <motion.section className={classes.prevexp} ref={ref} animate={animate}>
       <Title firstWord="Previous" secondWord="Experience" />
       <div className={classes.box}>
         <nav className={classes.nav}>
@@ -27,7 +31,12 @@ const PreviousExperience = ({ expData }) => {
         </nav>
         <div className={classes.textbox}>
           <div className={classes.image}>
-            <Image src={expData[slideNo].image} alt={expData[slideNo].company} width={150} height={200} />
+            <Image
+              src={expData[slideNo].image}
+              alt={expData[slideNo].company}
+              width={150}
+              height={200}
+            />
           </div>
           <div className={classes.text}>
             <h5>Company:</h5>
@@ -39,7 +48,7 @@ const PreviousExperience = ({ expData }) => {
           </div>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 

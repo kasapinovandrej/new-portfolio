@@ -7,10 +7,17 @@ import Button from "../Button/button";
 import Modal from "../Modal/modal";
 import "react-inner-image-zoom/lib/InnerImageZoom/styles.css";
 import InnerImageZoom from "react-inner-image-zoom";
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+import { animateSection } from "../../helper/animate";
 
 const testimonies = ({ testimonies }) => {
   const [modal, setModal] = useState(false);
   const [testimonie, setTestimonie] = useState();
+  const { ref, inView } = useInView({
+    threshold: 0.2,
+  });
+  const animation = animateSection(inView);
 
   const toggleModalHandler = (e) => {
     setTestimonie(e.letter);
@@ -18,7 +25,11 @@ const testimonies = ({ testimonies }) => {
   };
 
   return (
-    <section className={classes.textemonies}>
+    <motion.section
+      className={classes.textemonies}
+      ref={ref}
+      animate={animation}
+    >
       <Title firstWord="Superiors" secondWord="Testimonies" />
       <div className={classes.box}>
         {testimonies.map((el) => (
@@ -46,7 +57,7 @@ const testimonies = ({ testimonies }) => {
           <Button close type="close" function={toggleModalHandler} />
         </Modal>
       )}
-    </section>
+    </motion.section>
   );
 };
 

@@ -1,10 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
 import classes from "./about.module.scss";
 import Title from "../Title/title";
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+import { animateSection } from "../../helper/animate";
 
 const about = () => {
+  const { ref, inView } = useInView({
+    threshold: 0.2,
+  });
+  const animation = animateSection(inView);
+
   return (
-    <section className={classes.about}>
+    <motion.section ref={ref} className={classes.about} animate={animation}>
       <Title firstWord="About" secondWord="Me" />
       <div className={classes.textbox}>
         <p>
@@ -18,12 +26,8 @@ const about = () => {
           Choose a job you love, and you will never have to work a day in your
           life...
         </h3>
-        {/* <h5>
-          I invested a lot of time and energy to master the tools needed for
-          front end web development.
-        </h5> */}
       </div>
-    </section>
+    </motion.section>
   );
 };
 

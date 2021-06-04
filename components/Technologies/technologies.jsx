@@ -14,6 +14,8 @@ import {
 import { IoLogoSass } from "react-icons/io";
 import Card from "../Card/card";
 import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+import { animateSection } from "../../helper/animate";
 
 const technologies = [
   { id: "t0", name: "HTML", icon: <SiHtml5 /> },
@@ -43,8 +45,17 @@ const childText = {
 };
 
 const LearningResources = () => {
+  const { ref, inView } = useInView({
+    threshold: 0.2,
+  });
+  const animation = animateSection(inView);
+
   return (
-    <section className={classes.technologies}>
+    <motion.section
+      className={classes.technologies}
+      ref={ref}
+      animate={animation}
+    >
       <Title firstWord="Technologies" secondWord="I Use" />
       <div className={classes.iconbox}>
         {technologies.map((el) => (
@@ -56,7 +67,7 @@ const LearningResources = () => {
           </Card>
         ))}
       </div>
-    </section>
+    </motion.section>
   );
 };
 
