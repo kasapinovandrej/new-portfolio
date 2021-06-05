@@ -1,0 +1,202 @@
+{
+  "projects": [
+    {
+      "id": "p0",
+      "title": "Omnifood",
+      "git": "https://github.com/kasapinovandrej/Omnifood",
+      "code": "https://github1s.com/kasapinovandrej/Omnifood",
+      "link": "https://omnifood-andrejkasapinov.netlify.app/",
+      "description": "My first steps in programming. А project I worked on while learning the course \"Build Responsive Real World Websites with HTML5 and CSS3\"  by Jonas Schmedtmann",
+      "tech": "HTML, CSS",
+      "image": "./images/projects/omnifood.jpg",
+      "mine": "false"
+    },
+    {
+      "id": "p1",
+      "title": "Natours",
+      "git": "https://github.com/kasapinovandrej/Natours",
+      "code": "https://github1s.com/kasapinovandrej/Natours",
+      "link": "https://natours-andrejkasapinov.netlify.app/",
+      "description": "А project I worked on while learning the course \"Advanced CSS and Sass: Flexbox, Grid, Animations and More!\" by Jonas Schmedtmann",
+      "tech": "HTML, CSS",
+      "image": "./images/projects/natours.jpg",
+      "mine": "false"
+    },
+    {
+      "id": "p2",
+      "title": "Trillo",
+      "git": "https://github.com/kasapinovandrej/Trillo",
+      "code": "https://github1s.com/kasapinovandrej/Trillo",
+      "link": "https://trillo-andrejkasapinov.netlify.app/",
+      "description": "In this project I dived into the Flexbox and Sass, while learning the course \"Advanced CSS and Sass: Flexbox, Grid, Animations and More!\" by Jonas Schmedtmann",
+      "tech": "HTML, SCSS",
+      "image": "./images/projects/trillo.jpg",
+      "mine": "false"
+    },
+    {
+      "id": "p3",
+      "title": "Radio KVB",
+      "git": "https://github.com/kasapinovandrej/Radio-Kvb",
+      "code": "https://github1s.com/kasapinovandrej/Radio-Kvb",
+      "link": "http://ivan-pavic.com/adi/",
+      "description": "Amateur radio station from Kraljevo. My first volunteer project. It was never fully realized",
+      "tech": "HTML, SCSS, PHP",
+      "image": "./images/projects/radio.jpg",
+      "mine": "true"
+    },
+    {
+      "id": "p4",
+      "title": "Guess My Number!",
+      "git": "https://github.com/kasapinovandrej/Guess-My-Number",
+      "code": "https://github1s.com/kasapinovandrej/Guess-My-Number",
+      "link": "https://guessmynumber-andrejkasapinov.netlify.app/",
+      "description": "The first one of three projects I did while learning DOM manipulations with JavaScript course by Jonas Schmedtmann.",
+      "tech": "HTML, CSS, JS",
+      "image": "./images/projects/guess.jpg",
+      "mine": "false"
+    },
+    {
+      "id": "p5",
+      "title": "Pig Game",
+      "git": "https://github.com/kasapinovandrej/PigGame2020",
+      "code": "https://github1s.com/kasapinovandrej/PigGame2020",
+      "link": "https://piggame-andrejkasapinov.netlify.app/",
+      "description": "More advanced game for DOM manipulations with JavaScript course by Jonas Schmedtmann.",
+      "tech": "HTML, CSS, JS",
+      "image": "./images/projects/pig.jpg",
+      "mine": "false"
+    },
+    {
+      "id": "p6",
+      "title": "Bankist App",
+      "git": "https://github.com/kasapinovandrej/Bankist-app",
+      "code": "https://github1s.com/kasapinovandrej/Bankist-app/blob/HEAD/script.js",
+      "link": "https://bankistapp-andrejkasapinov.netlify.app/",
+      "description": "Great app for practicing Arrey methods, numbers, dates and timers by Jonas Schmedtmann. ---UserName 1: JS / Password 1:1111, UserName 2: JS / Password 2: 2222---",
+      "tech": "HTML, CSS, JS",
+      "image": "./images/projects/bankist.jpg",
+      "mine": "false"
+    },
+    {
+      "id": "p7",
+      "title": "Bankist Website",
+      "git": "https://github.com/kasapinovandrej/Bankist-WebSite",
+      "code": "https://github1s.com/kasapinovandrej/Bankist-WebSite",
+      "link": "https://bankistsite-andrejkasapinov.netlify.app/",
+      "description": "With the Bankist website I learned some visual effects, lazy image loading, tabbed component, slider and much more...",
+      "tech": "HTML, CSS, JS",
+      "image": "./images/projects/bankistsite.jpg",
+      "mine": "false"
+    },
+    {
+      "id": "p8",
+      "title": "Mapty",
+      "git": "https://github.com/kasapinovandrej/Mapty",
+      "code": "https://github1s.com/kasapinovandrej/Mapty",
+      "link": "https://mapty-andrejkasapinov.netlify.app/",
+      "description": "The Mapti project taught me how to incorporate a map to the website, and was a good introduction to asynchronous JavaScript, AJAX calls and how to use the app local storage.",
+      "tech": "HTML, CSS, JS",
+      "image": "./images/projects/mapty.jpg",
+      "mine": "false"
+    },
+    {
+      "id": "p9",
+      "title": "Forkify",
+      "git": "https://github1s.com/kasapinovandrej/forkify",
+      "code": "https://github.com/kasapinovandrej/forkify",
+      "link": "https://forkify-andrejkasapinov.netlify.app/",
+      "description": "Biggest and coolest project in \"The Complete JavaScript Course 2021: From Zero to Expert!\" by Jonas Schmedtmann",
+      "tech": "HTML, SCSS, JS",
+      "image": "./images/projects/forkify.jpg",
+      "mine": "false"
+    },
+    {
+      "id": "p10",
+      "title": "BurgerBuilder",
+      "git": "https://github.com/kasapinovandrej/BurgerBuilder",
+      "code": "https://github1s.com/kasapinovandrej/BurgerBuilder",
+      "link": "https://burgerbuilder-kasapinovandrej.netlify.app/",
+      "description": "The burger is built throughout the whole course 'React - The Complete Guide (incl Hooks, React Router, Redux)' by Maximilian Schwarzmüller",
+      "tech": "ReactJS, Firebase",
+      "image": "./images/projects/burger.jpg",
+      "mine": "false"
+    },
+    {
+      "id": "p11",
+      "title": "Digital Solution",
+      "git": "https://github.com/kasapinovandrej/DigitSol3.1",
+      "code": "https://github1s.com/kasapinovandrej/DigitSol3.1",
+      "link": "https://digitalsolution-rs.netlify.app/",
+      "description": "This is a website I created for the purpose of advertising my freelance services. I have made changes in code several times. You can see more at the link above...",
+      "tech": "ReactJS",
+      "image": "./images/projects/digital.jpg",
+      "mine": "true"
+    },
+    {
+      "id": "p12",
+      "title": "Crypto",
+      "git": "https://github.com/kasapinovandrej/Crypto",
+      "code": "https://github1s.com/kasapinovandrej/Crypto",
+      "link": "https://crypto-andrejkasapinov.netlify.app/",
+      "description": "My first encounter with the WebSocket API. This is my solution to the task I was given during the job interview. You can find the text of the guidelines in the ReadMe file on the GitHub link.",
+      "tech": "ReactJS",
+      "image": "./images/projects/crypto.jpg",
+      "mine": "true"
+    },
+    {
+      "id": "p13",
+      "title": "Stuck Veskovic",
+      "git": "https://github.com/kasapinovandrej/stuck-veskovic.com",
+      "code": "https://github1s.com/kasapinovandrej/stuck-veskovic.com",
+      "link": "https://stuck-veskovic.com",
+      "description": "Nothing is more satisfying than a happy client and a job well done.",
+      "tech": "ReactJS",
+      "image": "./images/projects/veskovic.jpg",
+      "mine": "true"
+    },
+    {
+      "id": "p14",
+      "title": "CRWN Clothing",
+      "git": "https://github.com/kasapinovandrej/crown-clothing",
+      "code": "https://github1s.com/kasapinovandrej/crown-clothing",
+      "link": "https://crwn-clothing-andrejkasapinov.netlify.app/",
+      "description": "I am still working on this project. This is an e-commerce app that I am building while working on a 'Complete React Developer Zero to Mastery' course by Andrei Neagoie and Yihua Zhang.",
+      "tech": "ReactJS",
+      "image": "./images/projects/crwn.jpg",
+      "mine": "false"
+    },
+    {
+      "id": "p15",
+      "title": "SDiBiL",
+      "git": "https://github.com/kasapinovandrej/SDiBiL",
+      "code": "https://github1s.com/kasapinovandrej/SDiBiL",
+      "link": "https://sdibil-andrejkasapinov.netlify.app/",
+      "description": "The task I was given during the job interview. Form validation was the main goal",
+      "tech": "ReactJS",
+      "image": "./images/projects/sdibil.jpg",
+      "mine": "true"
+    },
+    {
+      "id": "p16",
+      "title": "React Meetups",
+      "git": "https://github.com/kasapinovandrej/React-refresher-meetup-app",
+      "code": "https://github1s.com/kasapinovandrej/React-refresher-meetup-app",
+      "link": "https://reactmeetups.netlify.app/",
+      "description": "I made this app by practicing React in a new course from Maximilian Schwarzmüller",
+      "tech": "ReactJS",
+      "image": "./images/projects/meetups.jpg",
+      "mine": "false"
+    },
+    {
+      "id": "p17",
+      "title": "Next Events",
+      "git": "https://github.com/kasapinovandrej/NextEvents",
+      "code": "https://github1s.com/kasapinovandrej/NextEvents",
+      "link": "https://blog-project-kasapinovandrej.vercel.app/",
+      "description": "While making this blog, I saw all the possibilities offered by Nextjs, and at the same time it was my first encounter with mongodb.",
+      "tech": "NextJS",
+      "image": "./images/projects/blog.jpg",
+      "mine": "false"
+    }
+  ]
+}

@@ -21,7 +21,7 @@ const ResourceSwiper = ({ learningData }) => {
           prevEl: ".swiper-button-prev",
         }}
         pagination={{ clickable: true }}
-        loop={true}
+        // loop={true}
         // autoplay={{ delay: 6000 }}
         breakpoints={{
           576: {
