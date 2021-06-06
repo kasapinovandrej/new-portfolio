@@ -13,7 +13,6 @@ const linkHover = {
 };
 
 const GalleryCard = ({ data, index }) => {
-  console.log(index);
   return (
     <div
       className={`${classes.card} ${
