@@ -8,7 +8,7 @@
       "link": "https://omnifood-andrejkasapinov.netlify.app/",
       "description": "My first steps in programming. А project I worked on while learning the course \"Build Responsive Real World Websites with HTML5 and CSS3\"  by Jonas Schmedtmann",
       "tech": "HTML, CSS",
-      "image": "./images/projects/omnifood.jpg",
+      "image": "/images/projects/omnifood.jpg",
       "mine": false
     },
     {
@@ -19,7 +19,7 @@
       "link": "https://natours-andrejkasapinov.netlify.app/",
       "description": "А project I worked on while learning the course \"Advanced CSS and Sass: Flexbox, Grid, Animations and More!\" by Jonas Schmedtmann",
       "tech": "HTML, CSS",
-      "image": "./images/projects/natours.jpg",
+      "image": "/images/projects/natours.jpg",
       "mine": false
     },
     {
@@ -30,7 +30,7 @@
       "link": "https://trillo-andrejkasapinov.netlify.app/",
       "description": "In this project I dived into the Flexbox and Sass, while learning the course \"Advanced CSS and Sass: Flexbox, Grid, Animations and More!\" by Jonas Schmedtmann",
       "tech": "HTML, SCSS",
-      "image": "./images/projects/trillo.jpg",
+      "image": "/images/projects/trillo.jpg",
       "mine": false
     },
     {
@@ -41,7 +41,7 @@
       "link": "http://ivan-pavic.com/adi/",
       "description": "Amateur radio station from Kraljevo. My first volunteer project. It was never fully realized",
       "tech": "HTML, SCSS, PHP",
-      "image": "./images/projects/radio.jpg",
+      "image": "/images/projects/radio.jpg",
       "mine": true
     },
     {
@@ -52,7 +52,7 @@
       "link": "https://guessmynumber-andrejkasapinov.netlify.app/",
       "description": "The first one of three projects I did while learning DOM manipulations with JavaScript course by Jonas Schmedtmann.",
       "tech": "HTML, CSS, JS",
-      "image": "./images/projects/guess.jpg",
+      "image": "/images/projects/guess.jpg",
       "mine": false
     },
     {
@@ -63,7 +63,7 @@
       "link": "https://piggame-andrejkasapinov.netlify.app/",
       "description": "More advanced game for DOM manipulations with JavaScript course by Jonas Schmedtmann.",
       "tech": "HTML, CSS, JS",
-      "image": "./images/projects/pig.jpg",
+      "image": "/images/projects/pig.jpg",
       "mine": false
     },
     {
@@ -74,7 +74,7 @@
       "link": "https://bankistapp-andrejkasapinov.netlify.app/",
       "description": "Great app for practicing Arrey methods, numbers, dates and timers by Jonas Schmedtmann. ---UserName 1: JS / Password 1:1111, UserName 2: JS / Password 2: 2222---",
       "tech": "HTML, CSS, JS",
-      "image": "./images/projects/bankist.jpg",
+      "image": "/images/projects/bankist.jpg",
       "mine": false
     },
     {
@@ -85,7 +85,7 @@
       "link": "https://bankistsite-andrejkasapinov.netlify.app/",
       "description": "With the Bankist website I learned some visual effects, lazy image loading, tabbed component, slider and much more...",
       "tech": "HTML, CSS, JS",
-      "image": "./images/projects/bankistsite.jpg",
+      "image": "/images/projects/bankistsite.jpg",
       "mine": false
     },
     {
@@ -96,7 +96,7 @@
       "link": "https://mapty-andrejkasapinov.netlify.app/",
       "description": "The Mapti project taught me how to incorporate a map to the website, and was a good introduction to asynchronous JavaScript, AJAX calls and how to use the app local storage.",
       "tech": "HTML, CSS, JS",
-      "image": "./images/projects/mapty.jpg",
+      "image": "/images/projects/mapty.jpg",
       "mine": false
     },
     {
@@ -107,7 +107,7 @@
       "link": "https://forkify-andrejkasapinov.netlify.app/",
       "description": "Biggest and coolest project in \"The Complete JavaScript Course 2021: From Zero to Expert!\" by Jonas Schmedtmann",
       "tech": "HTML, SCSS, JS",
-      "image": "./images/projects/forkify.jpg",
+      "image": "/images/projects/forkify.jpg",
       "mine": false
     },
     {
@@ -118,7 +118,7 @@
       "link": "https://burgerbuilder-kasapinovandrej.netlify.app/",
       "description": "The burger is built throughout the whole course 'React - The Complete Guide (incl Hooks, React Router, Redux)' by Maximilian Schwarzmüller",
       "tech": "ReactJS, Firebase",
-      "image": "./images/projects/burger.jpg",
+      "image": "/images/projects/burger.jpg",
       "mine": false
     },
     {
@@ -129,7 +129,7 @@
       "link": "https://digitalsolution-rs.netlify.app/",
       "description": "This is a website I created for the purpose of advertising my freelance services. I have made changes in code several times. You can see more at the link above...",
       "tech": "ReactJS",
-      "image": "./images/projects/digital.jpg",
+      "image": "/images/projects/digital.jpg",
       "mine": true
     },
     {
@@ -140,7 +140,7 @@
       "link": "https://crypto-andrejkasapinov.netlify.app/",
       "description": "My first encounter with the WebSocket API. This is my solution to the task I was given during the job interview. You can find the text of the guidelines in the ReadMe file on the GitHub link.",
       "tech": "ReactJS",
-      "image": "./images/projects/crypto.jpg",
+      "image": "/images/projects/crypto.jpg",
       "mine": true
     },
     {
@@ -151,7 +151,7 @@
       "link": "https://stuck-veskovic.com",
       "description": "Nothing is more satisfying than a happy client and a job well done.",
       "tech": "ReactJS",
-      "image": "./images/projects/veskovic.jpg",
+      "image": "/images/projects/veskovic.jpg",
       "mine": true
     },
     {
@@ -162,7 +162,7 @@
       "link": "https://crwn-clothing-andrejkasapinov.netlify.app/",
       "description": "I am still working on this project. This is an e-commerce app that I am building while working on a 'Complete React Developer Zero to Mastery' course by Andrei Neagoie and Yihua Zhang.",
       "tech": "ReactJS",
-      "image": "./images/projects/crwn.jpg",
+      "image": "/images/projects/crwn.jpg",
       "mine": false
     },
     {
@@ -173,7 +173,7 @@
       "link": "https://sdibil-andrejkasapinov.netlify.app/",
       "description": "The task I was given during the job interview. Form validation was the main goal",
       "tech": "ReactJS",
-      "image": "./images/projects/sdibil.jpg",
+      "image": "/images/projects/sdibil.jpg",
       "mine": true
     },
     {
@@ -184,7 +184,7 @@
       "link": "https://reactmeetups.netlify.app/",
       "description": "I made this app by practicing React in a new course from Maximilian Schwarzmüller",
       "tech": "ReactJS",
-      "image": "./images/projects/meetups.jpg",
+      "image": "/images/projects/meetups.jpg",
       "mine": false
     },
     {
@@ -195,7 +195,7 @@
       "link": "https://blog-project-kasapinovandrej.vercel.app/",
       "description": "While making this blog, I saw all the possibilities offered by Nextjs, and at the same time it was my first encounter with mongodb.",
       "tech": "NextJS",
-      "image": "./images/projects/blog.jpg",
+      "image": "/images/projects/blog.jpg",
       "mine": false
     }
   ]

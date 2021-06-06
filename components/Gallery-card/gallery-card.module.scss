@@ -1,0 +1,48 @@
+@import "../../styles/variables";
+
+.card {
+  margin: 2rem auto;
+  padding: 2rem;
+}
+.background {
+  background: $section;
+}
+.box {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  @media only screen and (max-width: $breakpoints-md) {
+    flex-direction: column;
+    width: 90%;
+  }
+}
+.imagebox {
+  order: 1;
+  @media only screen and (max-width: $breakpoints-md) {
+    order: 0;
+  }
+}
+.textbox {
+  width: 60%;
+  @media only screen and (max-width: $breakpoints-md) {
+    width: 100%;
+  }
+  h5 {
+    margin-top: 3rem;
+  }
+  h5,
+  p {
+    margin-bottom: 2rem;
+  }
+  .links {
+    a {
+      font-size: 4rem;
+      color: $color3;
+
+      &:not(:first-of-type) {
+        margin-left: 3rem;
+      }
+    }
+  }
+}

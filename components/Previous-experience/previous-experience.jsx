@@ -5,6 +5,7 @@ import Image from "next/image";
 import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
 import { animateSection } from "../../helper/animate";
+import TabbedButtons from "../Tabbed-buttons/tabbed-buttons";
 
 const PreviousExperience = ({ expData }) => {
   const [currentButton, setCurrentButton] = useState("j0");
@@ -18,17 +19,12 @@ const PreviousExperience = ({ expData }) => {
     <motion.section className={classes.prevexp} ref={ref} animate={animate}>
       <Title firstWord="Previous" secondWord="Experience" />
       <div className={classes.box}>
-        <nav className={classes.nav}>
-          {expData.map((el) => (
-            <li
-              onClick={() => currentButtonHandler(el.id)}
-              key={el.id}
-              className={currentButton === el.id ? classes.active : null}
-            >
-              {el.company}
-            </li>
-          ))}
-        </nav>
+        <TabbedButtons
+          type="expeience"
+          buttons={expData}
+          currentButton={currentButton}
+          buttonHandler={currentButtonHandler}
+        />
         <div className={classes.textbox}>
           <div className={classes.image}>
             <Image
@@ -40,7 +36,7 @@ const PreviousExperience = ({ expData }) => {
           </div>
           <div className={classes.text}>
             <h5>Company:</h5>
-            <p>{expData[slideNo].company}</p>
+            <p>{expData[slideNo].title}</p>
             <h5>Position:</h5>
             <p>{expData[slideNo].position}</p>
             <h5>Description:</h5>

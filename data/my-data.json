@@ -60,28 +60,28 @@
   "jobs": [
     {
       "id": "j0",
-      "company": "Digital Solution",
+      "title": "Digital Solution",
       "position": "Web developer",
       "description": "Тhis is my startup project with the goal of providing services of planning, designing and developing web applications for clients.",
       "image": "/images/prevcomp/digital.png"
     },
     {
       "id": "j1",
-      "company": "Nelt Co",
+      "title": "Nelt Co",
       "position": "Pre-selling representative",
       "description": "Liaising with clients and customer care, market research and observing of competition activity, boosting sales, collection...",
       "image": "/images/prevcomp/nelt.png"
     },
     {
       "id": "j2",
-      "company": "Pepsi Serbia, A&P doo",
+      "title": "Pepsi Serbia, A&P doo",
       "position": "Sales supervisor",
       "description": "Organize and coordinate sales representatives schedules. Recruit, hire and train new sales representatives. Receive and report on all sales leads. Work with sales team when closing sales. Track weekly, monthly, and quarterly performance and sales metrics. Assist sales representatives and team to meet and exceed goals.",
       "image": "/images/prevcomp/pepsi.png"
     },
     {
       "id": "j3",
-      "company": "Coca-Cola HBC",
+      "title": "Coca-Cola HBC",
       "position": "Market developer jolly",
       "description": "Liaising with clients on site. Sale of beverages and boosting sales. Customer care. Marketing research and observing of competition activity.",
       "image": "/images/prevcomp/coca.png"

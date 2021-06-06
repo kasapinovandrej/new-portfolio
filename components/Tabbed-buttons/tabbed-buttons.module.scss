@@ -1,1 +1,74 @@
 @import "../../styles/variables";
+
+.expeience {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media only screen and (max-width: $breakpoints-md) {
+    flex-direction: column;
+  }
+  li {
+    text-align: center;
+    list-style: none;
+    width: 20rem;
+    border-radius: 50px;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    margin: 0.5rem 1rem;
+    transition: all 0.5s;
+    border: 1px solid $color3;
+    cursor: pointer;
+    box-shadow: $shadow;
+    @media only screen and (max-width: $breakpoints-md) {
+      padding: 1rem 1rem;
+      width: 18rem;
+    }
+    &:hover {
+      border: 1px solid $color9;
+      color: $color9;
+      background: $color1;
+    }
+  }
+  .active {
+    transform: translateY(-10px);
+    background: $color3;
+    color: $color1;
+    @media only screen and (max-width: $breakpoints-md) {
+      transform: translateY(0);
+      transform: translateX(-10px);
+    }
+  }
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  li {
+    text-align: center;
+    list-style: none;
+    width: 20rem;
+    border-radius: 50px;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    margin: 0.5rem 1rem;
+    transition: all 0.5s;
+    border: 1px solid $color3;
+    cursor: pointer;
+    box-shadow: $shadow;
+    @media only screen and (max-width: $breakpoints-md) {
+      padding: 1rem 1rem;
+      width: 18rem;
+    }
+    &:hover {
+      border: 1px solid $color9;
+      color: $color9;
+      background: $color1;
+    }
+  }
+  .active {
+    transform: translateY(-10px);
+    background: $color3;
+    color: $color1;
+  }
+}
