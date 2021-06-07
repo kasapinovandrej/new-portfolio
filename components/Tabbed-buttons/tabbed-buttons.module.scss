@@ -39,36 +39,31 @@
     }
   }
 }
-
 .gallery {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  border-radius: 5rem 0 0 5rem;
+  border: 1px solid $color3;
+  background: $color6;
+  @media only screen and (max-width: $breakpoints-md) {
+    border-radius: 5rem;
+  }
   li {
-    text-align: center;
+    color: $color9;
     list-style: none;
-    width: 20rem;
-    border-radius: 50px;
-    font-size: 1.5rem;
-    padding: 1rem 2rem;
-    margin: 0.5rem 1rem;
-    transition: all 0.5s;
-    border: 1px solid $color3;
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
     cursor: pointer;
-    box-shadow: $shadow;
-    @media only screen and (max-width: $breakpoints-md) {
-      padding: 1rem 1rem;
-      width: 18rem;
-    }
+    transition: all 0.5s;
     &:hover {
-      border: 1px solid $color9;
-      color: $color9;
-      background: $color1;
+      transform: scale(1.07);
+    }
+    @media only screen and (max-width: 281px) {
+      padding: 1rem 0.4rem;
     }
   }
   .active {
-    transform: translateY(-10px);
     background: $color3;
     color: $color1;
+    border-radius: 5rem;
   }
 }

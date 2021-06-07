@@ -1,5 +1,20 @@
+@import "../../styles/variables";
+.selectbox {
+}
 .select {
-  position: absolute;
-  right: 10%;
-  top: -3rem;
+  color: $color9;
+  background: $color6;
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  outline: none;
+  border: 1px solid $color3;
+  border-radius: 0 2rem 2rem 0;
+  cursor: pointer;
+  @media only screen and (max-width: $breakpoints-md) {
+    border-radius: 2rem;
+    margin-top: 3rem;
+  }
+  @media only screen and (max-width: 281px) {
+    padding: 1rem 0.4rem;
+  }
 }

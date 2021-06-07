@@ -1,7 +1,15 @@
+@import "../../styles/variables";
 .work {
   padding: 5rem 0;
 }
 .cardbox {
   margin-top: 5rem;
-  position: relative;
+}
+.buttonsbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media only screen and (max-width: $breakpoints-md) {
+    flex-direction: column;
+  }
 }
