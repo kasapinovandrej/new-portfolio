@@ -9,8 +9,12 @@ function MyApp({ Component, pageProps }) {
     <Layout>
       <Head>
         <meta name="description" content="Andrej Kasapinov portfolio" />
+        <meta
+          name="keywords"
+          content="coding, web development, html, css, JavaScript, React, Next JS, work, portfolio, "
+        />
+        <meta name="author" content="Andrej Kasapinov" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <title>Andrej Kasapinov</title>
       </Head>
       <Component {...pageProps} />
     </Layout>
