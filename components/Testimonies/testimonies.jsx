@@ -44,7 +44,7 @@ const testimonies = ({ testimonies }) => {
               <h4>{el.name}</h4>
               <h5>{el.position}</h5>
               <Button
-                type="testimonies"
+                title="testimonies"
                 name="More info"
                 enterIcon
                 function={() => toggleModalHandler(el)}

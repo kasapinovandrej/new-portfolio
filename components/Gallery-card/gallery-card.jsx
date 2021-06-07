@@ -15,9 +15,7 @@ const linkHover = {
 };
 
 const GalleryCard = ({ data, index }) => {
-  const { ref, inView } = useInView({
-    threshold: 0.2,
-  });
+  const { ref, inView } = useInView();
   const animation = animateSection(inView);
 
   return (

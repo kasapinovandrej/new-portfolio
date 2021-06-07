@@ -46,7 +46,7 @@ const HeroSection = () => {
         </motion.h5>
         <Button
           name="My projects"
-          type="filled"
+          title="filled"
           function={() => router.push("/projects")}
         />
         <Button name="Contact Me" function={() => router.push("/contact")} />

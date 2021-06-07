@@ -23,10 +23,12 @@
       padding: 1rem 1rem;
       width: 18rem;
     }
-    &:hover {
-      border: 1px solid $color9;
-      color: $color9;
-      background: $color1;
+    @media only screen and (min-width: $breakpoints-md) {
+      &:hover {
+        border: 1px solid $color9;
+        color: $color9;
+        background: $color1;
+      }
     }
   }
   .active {
@@ -54,8 +56,10 @@
     padding: 0.5rem 1rem;
     cursor: pointer;
     transition: all 0.5s;
-    &:hover {
-      transform: scale(1.07);
+    @media only screen and (min-width: $breakpoints-md) {
+      &:hover {
+        transform: scale(1.07);
+      }
     }
     @media only screen and (max-width: 281px) {
       padding: 1rem 0.4rem;

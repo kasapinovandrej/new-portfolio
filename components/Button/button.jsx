@@ -8,7 +8,7 @@ const Button = (props) => {
   return (
     <motion.button
       onClick={props.function}
-      className={`${classes.button} ${classes[props.type]}`}
+      className={`${classes.button} ${classes[props.title]}`}
       whileHover={{
         scale: 1.1,
         border: "1px solid #ff6225",
@@ -16,6 +16,7 @@ const Button = (props) => {
       }}
       whileTap={{ scale: 0.9 }}
       transition={{ duration: 0.2 }}
+      type={props.type}
     >
       <span>
         {props.name}

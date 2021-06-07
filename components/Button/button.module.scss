@@ -11,8 +11,10 @@
 .filled {
   background: $color3;
   color: $color1;
-  &:hover {
-    background: transparent;
+  @media only screen and (min-width: $breakpoints-md) {
+    &:hover {
+      background: transparent;
+    }
   }
 }
 .testimonies {
@@ -36,5 +38,16 @@
   }
   svg {
     display: flex;
+  }
+}
+.form {
+  background: $color3;
+  width: 20rem;
+  color: $color1;
+  margin: 0;
+  @media only screen and (min-width: $breakpoints-md) {
+    &:hover {
+      background: $color1;
+    }
   }
 }
