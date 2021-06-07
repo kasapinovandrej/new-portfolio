@@ -4,6 +4,8 @@ import classes from "./gallery-card.module.scss";
 import { motion } from "framer-motion";
 import { ImGithub, ImLink } from "react-icons/im";
 import { CgCodeSlash } from "react-icons/cg";
+import { useInView } from "react-intersection-observer";
+import { animateSection } from "../../helper/animate";
 
 const linkHover = {
   hover: {
@@ -13,8 +15,15 @@ const linkHover = {
 };
 
 const GalleryCard = ({ data, index }) => {
+  const { ref, inView } = useInView({
+    threshold: 0.2,
+  });
+  const animation = animateSection(inView);
+
   return (
-    <div
+    <motion.div
+      ref={ref}
+      animate={animation}
       className={`${classes.card} ${
         index % 2 === 0 ? classes.background : null
       }`}
@@ -54,7 +63,7 @@ const GalleryCard = ({ data, index }) => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
