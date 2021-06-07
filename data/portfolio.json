@@ -6,7 +6,7 @@
       "git": "https://github.com/kasapinovandrej/Omnifood",
       "code": "https://github1s.com/kasapinovandrej/Omnifood",
       "link": "https://omnifood-andrejkasapinov.netlify.app/",
-      "description": "My first steps in programming. А project I worked on while learning the course \"Build Responsive Real World Websites with HTML5 and CSS3\"  by Jonas Schmedtmann",
+      "description": "My first steps in web development. А project I worked on while learning the course \"Build Responsive Real World Websites with HTML5 and CSS3\"  by Jonas Schmedtmann",
       "tech": "HTML, CSS",
       "image": "/images/projects/omnifood.jpg",
       "type": 1
@@ -17,7 +17,7 @@
       "git": "https://github.com/kasapinovandrej/Natours",
       "code": "https://github1s.com/kasapinovandrej/Natours",
       "link": "https://natours-andrejkasapinov.netlify.app/",
-      "description": "А project I worked on while learning the course \"Advanced CSS and Sass: Flexbox, Grid, Animations and More!\" by Jonas Schmedtmann",
+      "description": "In the Natours project, the main focus was on learning animations and responsive design. This is part of the course \"Advanced CSS and Sass: Flexbox, Grid, Animations and More!\" by Jonas Schmedtmann",
       "tech": "HTML, CSS",
       "image": "/images/projects/natours.jpg",
       "type": 1
@@ -50,7 +50,7 @@
       "git": "https://github.com/kasapinovandrej/Guess-My-Number",
       "code": "https://github1s.com/kasapinovandrej/Guess-My-Number",
       "link": "https://guessmynumber-andrejkasapinov.netlify.app/",
-      "description": "The first one of three projects I did while learning DOM manipulations with JavaScript course by Jonas Schmedtmann.",
+      "description": "The first one of three projects I did while learning DOM manipulations with JavaScript. Course by Jonas Schmedtmann.",
       "tech": "HTML, CSS, JS",
       "image": "/images/projects/guess.jpg",
       "type": 1
@@ -61,7 +61,7 @@
       "git": "https://github.com/kasapinovandrej/PigGame2020",
       "code": "https://github1s.com/kasapinovandrej/PigGame2020",
       "link": "https://piggame-andrejkasapinov.netlify.app/",
-      "description": "More advanced game for DOM manipulations with JavaScript course by Jonas Schmedtmann.",
+      "description": "More advanced game for practicing DOM manipulations with JavaScript. Course by Jonas Schmedtmann.",
       "tech": "HTML, CSS, JS",
       "image": "/images/projects/pig.jpg",
       "type": 1
@@ -72,7 +72,7 @@
       "git": "https://github.com/kasapinovandrej/Bankist-app",
       "code": "https://github1s.com/kasapinovandrej/Bankist-app/blob/HEAD/script.js",
       "link": "https://bankistapp-andrejkasapinov.netlify.app/",
-      "description": "Great app for practicing Arrey methods, numbers, dates and timers by Jonas Schmedtmann. [UserName 1: JS / Password 1:1111, UserName 2: JS / Password 2: 2222]",
+      "description": "Great app for practicing Arrey methods, numbers, dates and timers by Jonas Schmedtmann. (UserName: JS Password: 1111 || UserName: JS  Password: 2222)",
       "tech": "HTML, CSS, JS",
       "image": "/images/projects/bankist.jpg",
       "type": 1
@@ -138,7 +138,7 @@
       "git": "https://github.com/kasapinovandrej/Crypto",
       "code": "https://github1s.com/kasapinovandrej/Crypto",
       "link": "https://crypto-andrejkasapinov.netlify.app/",
-      "description": "My first encounter with the WebSocket API. This is my solution to the task I was given during the job interview. You can find the text of the guidelines in the ReadMe file on the GitHub link.",
+      "description": "My first encounter with the WebSocket API. This was my solution to the task I was given during the job interview. You can find the text of the guidelines in the ReadMe file on the GitHub link.",
       "tech": "ReactJS",
       "image": "/images/projects/crypto.jpg",
       "type": 2
@@ -193,7 +193,7 @@
       "git": "https://github.com/kasapinovandrej/NextEvents",
       "code": "https://github1s.com/kasapinovandrej/NextEvents",
       "link": "https://blog-project-kasapinovandrej.vercel.app/",
-      "description": "While making this blog, I saw all the possibilities offered by Nextjs, and at the same time it was my first encounter with mongodb.",
+      "description": "I made this blog site while exploring server-side rendering, file-based routind, mongodb and more... in NextJS course by Maximilian Schwarzmüller",
       "tech": "NextJS",
       "image": "/images/projects/blog.jpg",
       "type": 1
@@ -204,7 +204,7 @@
       "git": "https://github.com/kasapinovandrej/new-portfolio",
       "code": "https://github1s.com/kasapinovandrej/new-portfolio",
       "link": "https://andrejkasapinov.vercel.app/",
-      "description": "You can see the code of this portfolio at the links below",
+      "description": "My latest work is this portfolio. You can see the code I wrote at the link below.",
       "tech": "NextJS",
       "image": "/images/projects/portfolio.jpg",
       "type": 2
