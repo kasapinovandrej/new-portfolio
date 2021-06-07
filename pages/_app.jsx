@@ -15,6 +15,12 @@ function MyApp({ Component, pageProps }) {
         />
         <meta name="author" content="Andrej Kasapinov" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Andrej Kasapinov - Portfolio" />
+        <meta property="og:url" content="https://andrejkasapinov.vercel.app/" />
+        <meta property="og:image" content="/images/projects/portfolio.jpg" />
+        <meta property="og:description" content="Andrej Kasapinov portfolio" />
+        <meta name="twitter:image" content="/images/projects/portfolio.jpg" />
       </Head>
       <Component {...pageProps} />
     </Layout>
