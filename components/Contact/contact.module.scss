@@ -21,8 +21,6 @@
   }
 }
 .image {
-  // display: none;
-
   @media only screen and (max-width: $breakpoints-md) {
     max-width: 30rem;
     margin-bottom: -5rem;
@@ -38,4 +36,3 @@
     margin: 0;
   }
 }
-

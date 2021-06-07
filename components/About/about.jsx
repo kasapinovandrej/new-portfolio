@@ -16,7 +16,7 @@ const about = () => {
       <Title firstWord="About" secondWord="Me" />
       <div className={classes.textbox}>
         <p>
-          By formal education i am graduated economist. In previos years i
+          By formal education I am graduated economist. In previos years I
           worked as an accountant, sales representative, and sales team
           supervisor. Coding was initially just a hobby for me, but it grew into
           a great passion and desire to make it my primary occupation.
