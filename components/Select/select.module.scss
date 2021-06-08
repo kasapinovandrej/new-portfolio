@@ -1,9 +1,10 @@
 @import "../../styles/variables";
-// .selectbox {
-// }
+.selectbox {
+  border: 0;
+}
 .select {
   color: $color9;
-  // background: $color6;
+  background: $color1;
   font-size: 2rem;
   padding: 0.5rem 1rem;
   outline: none;
