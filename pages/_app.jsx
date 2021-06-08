@@ -13,10 +13,6 @@ function MyApp({ Component, pageProps }) {
           name="keywords"
           content="coding, web development, html, css, JavaScript, React, Next JS, work, portfolio, "
         />
-        {/* <meta
-          http-equiv="Content-Security-Policy"
-          content="default-src 'self'"
-        ></meta> */}
         <meta name="author" content="Andrej Kasapinov" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta property="og:type" content="article" />

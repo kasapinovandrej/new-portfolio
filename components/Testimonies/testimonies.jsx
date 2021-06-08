@@ -66,7 +66,7 @@ const testimonies = ({ testimonies }) => {
             >
               <InnerImageZoom src={testimonie} zoomScale={1.5} />
             </motion.div>
-            <Button close type="close" function={toggleModalHandler} />
+            <Button close title="close" function={toggleModalHandler} />
           </Modal>
         )}
       </AnimatePresence>
